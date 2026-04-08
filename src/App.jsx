@@ -500,7 +500,7 @@ function reducer(state, action) {
 // ─── AI CALL ──────────────────────────────────────────────────────────────────
 async function callAI(messages) {
   try {
-    const res = await fetch("http://localhost:5000/api/chat", {
+    const res = await fetch("https://modern-web-app-bca8.onrender.com/api/chat", {
       
       method: "POST",
       headers: {
